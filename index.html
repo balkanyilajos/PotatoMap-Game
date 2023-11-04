@@ -1,0 +1,31 @@
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game">
+        <div id="table-field">
+            <div id="new-game"></div>
+            <h1>Potato map</h1>
+            <table class="matrix-table" id="table"></table>
+        </div>
+        <div id="switches">
+            <div id="season-data-field">
+                <div id="point-counter"></div>
+                <p id="current-season"></p>
+                <table id="missions"></table>
+                <p id="remaining-time-of-the-season"></p>
+            </div>
+            <div id="card-block-field">
+                <table class="matrix-table" id="cards"></table>
+                <p>Element to be placed:</p>
+                <div id="buttons"></div>
+            </div>
+        </div>
+    </div>
+    <script src="./Game.js" type="module"></script>
+</body>
+</html>
