@@ -1,3 +1,5 @@
+# Potato Map Game
+
 <Hallgató Balkányi Lajos> 
 <Neptun IIR2H4> 
 Webprogramozás - számonkérés
